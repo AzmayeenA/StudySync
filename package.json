@@ -1,0 +1,30 @@
+{
+  "name": "studysync",
+  "version": "1.0.0",
+  "description": "A web-based academic workload and assignment management system for college students.",
+  "main": "src/server.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Tests not implemented yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzmayeenA/StudySync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AzmayeenA/StudySync/issues"
+  },
+  "homepage": "https://github.com/AzmayeenA/StudySync#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
