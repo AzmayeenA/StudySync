@@ -58,18 +58,18 @@ The general sprint workflow is:
 
 ### Sprint 1 — Foundation and Authentication
 
+**Sprint Length:** 2 weeks
+
 **Sprint Goal:**
 
-Build the technical foundation of StudySync and implement the initial
-user authentication functionality so that individual students can
-securely access their academic data.
+Build the technical foundation of StudySync and implement the initial user authentication functionality so that individual students can securely access their academic data.
 
-Initial Sprint 1 work includes:
+**Sprint Backlog:**
 
 - User Registration
 - User Login
-- MongoDB database setup
-- User database model
+
+Supporting development work for these stories includes setting up the MongoDB database connection and creating the user database model.
 
 ## Product Backlog
 
