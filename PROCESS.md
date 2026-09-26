@@ -39,7 +39,7 @@ to Done after the feature has been implemented and tested.
 
 GitHub Project Board:
 
-[StudySync Development](https://github.com/AzmayeenA/StudySync)
+[StudySync Development](https://github.com/users/AzmayeenA/projects/2)
 
 ## Sprint Structure
 
