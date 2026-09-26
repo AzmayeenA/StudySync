@@ -1,17 +1,23 @@
+require("dotenv").config();
+
 const express = require("express");
+const connectDB = require("./config/database");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
+// Connect to MongoDB
+connectDB();
 
 // Middleware
 app.use(express.json());
 
-// Home route
+// Basic test route
 app.get("/", (req, res) => {
-    res.send("Welcome to StudySync!");
+    res.send("StudySync API is running!");
 });
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`StudySync server is running at http://localhost:${PORT}`);
+    console.log(`StudySync server running on port ${PORT}`);
 });

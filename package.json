@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/AzmayeenA/StudySync#readme",
   "dependencies": {
+    "dotenv": "^18.0.4",
     "express": "^5.2.1",
     "mongoose": "^9.10.2"
   }
